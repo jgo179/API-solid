@@ -24,6 +24,6 @@ module.exports = {
     rules: {
         "camelcase": "off",
         "no-useless-constructor": "off",
-        "no-unused-vars": "off"
+        "no-unused-vars": "off",
     },
 }
