@@ -11,7 +11,7 @@ on: [pull_request]
         image: bitnami/postgresql
         ports: 
           - 5432:5432 
-        environment:
+        env:
           - POSTGRESQL_USERNAME=docker
           - POSTGRESQL_PASSWORD=docker
           - POSTGRESQL_DATABASE=apisolid
